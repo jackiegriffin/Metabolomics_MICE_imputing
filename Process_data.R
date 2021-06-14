@@ -40,6 +40,5 @@ library(dplyr)
   meta_clean_t_filt_IMP <- mice(meta_clean_t_filt, maxit = 10, print=F) # impute missing data using MICE
   colnames(meta_clean_t_filt) <- gsub(" ", "_", colnames(meta_clean_t_filt))
 
-# column/metabolite names need cleaned up... 
-
+# Transferred back to Anneka to fix metabolite/column names...
 
